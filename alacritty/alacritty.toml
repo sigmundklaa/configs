@@ -1,0 +1,8 @@
+
+[keyboard]
+bindings = [
+  { key = "J",        mods = "Alt",     chars = "\u001bj"                       },
+  { key = "K",        mods = "Alt",     chars = "\u001bk"                       },
+  { key = "H",        mods = "Alt",     chars = "\u001bh"                       },
+  { key = "L",        mods = "Alt",     chars = "\u001bl"                       },
+]
