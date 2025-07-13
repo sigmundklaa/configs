@@ -1,3 +1,6 @@
+import = [
+    "~/.config/alacritty/themes/themes/doom_one.toml",
+]
 
 [keyboard]
 bindings = [
