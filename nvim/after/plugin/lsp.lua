@@ -25,7 +25,7 @@ vim.diagnostic.config({
 require('mason').setup({})
 require('mason-lspconfig').setup({
 	ensure_installed = {
-		'clangd', 'pylsp', 'bashls', 'neocmake', 'dockerls', 'vhdl_ls'
+		'clangd', 'pylsp', 'bashls', 'neocmake', 'dockerls', 'vhdl_ls', 'tinymist'
 	},
 	handlers={
 		lsp.default_setup,

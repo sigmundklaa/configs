@@ -64,6 +64,12 @@ require('lazy').setup({
             {'L3MON4D3/LuaSnip'}
         },
     },
+    {
+        'chomosuke/typst-preview.nvim',
+        lazy = false,
+        version = '1.*',
+        opts = {},
+    },
     'williamboman/mason.nvim',
     'williamboman/mason-lspconfig.nvim'
 })
