@@ -18,6 +18,10 @@ lsp.on_attach(function(client, bufnr)
 	vim.keymap.set('n', '<leader>mf', function () vim.lsp.buf.format() end, opts)
 end)
 
+vim.diagnostic.config({
+    virtual_text = true
+})
+
 require('mason').setup({})
 require('mason-lspconfig').setup({
 	ensure_installed = {
